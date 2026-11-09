@@ -1,0 +1,11 @@
+[package]
+name = "gravity-changer-rs"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+publish = false
+description = "Gravity Changer: an empty native mod for the Horizon Minecraft client (Rust)."
+
+# The mod's logic and its tests: the same file the bundle adds to the game.
+[lib]
+path = "mixins/gravity_changer/runtime.rs"
